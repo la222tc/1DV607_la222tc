@@ -1,6 +1,9 @@
 # 1DV607_la222tc
 <h1>Workshop 2</h1>
-...Peer Reviews
+My Peer Reviews:
+1. https://github.com/la222tc/Peer-Review-Patrik-Erlandsson
+
+2. https://github.com/la222tc/Peer-Review-Kristoffer-Svensson
 
 
 <h1>Workshop 1</h1>
