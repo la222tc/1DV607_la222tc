@@ -1,5 +1,7 @@
 # 1DV607_la222tc
 <h1>Workshop 2</h1>
+Peer Review from Jan Tran
+
 My Peer Reviews:
 
 1. https://github.com/la222tc/Peer-Review-Patrik-Erlandsson
