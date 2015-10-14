@@ -1,6 +1,9 @@
 # 1DV607_la222tc
 <h1>Workshop 2</h1>
+
 Peer Review from Jan Tran : https://github.com/la222tc/1DV607_la222tc/blob/master/workshop2-%20peerreview%20on%20la222tc.pdf
+
+Reer Review from Marco Villegas Tello: https://github.com/la222tc/1DV607_la222tc/blob/master/PeerReviewWorkshop2-la222tc.pdf
 
 My Peer Reviews:
 
