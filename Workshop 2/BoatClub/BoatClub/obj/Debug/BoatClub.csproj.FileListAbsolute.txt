@@ -4,3 +4,9 @@ c:\users\linus\documents\visual studio 2013\Projects\BoatClub\BoatClub\bin\Debug
 c:\users\linus\documents\visual studio 2013\Projects\BoatClub\BoatClub\obj\Debug\BoatClub.csprojResolveAssemblyReference.cache
 c:\users\linus\documents\visual studio 2013\Projects\BoatClub\BoatClub\obj\Debug\BoatClub.exe
 c:\users\linus\documents\visual studio 2013\Projects\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Debug\BoatClub.exe.config
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Debug\BoatClub.exe
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Debug\BoatClub.exe
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Debug\BoatClub.pdb
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Debug\BoatClub.csprojResolveAssemblyReference.cache

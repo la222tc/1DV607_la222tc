@@ -123,5 +123,6 @@ namespace BoatClub.View
         {
             Console.WriteLine("Ange en ny båt längd");
         }
+
     }
 }

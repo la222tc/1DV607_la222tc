@@ -1,0 +1,6 @@
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Release\BoatClub.exe.config
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Release\BoatClub.exe
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\bin\Release\BoatClub.pdb
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Release\BoatClub.csprojResolveAssemblyReference.cache
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Release\BoatClub.exe
+C:\Users\Linus\git1\1DV607_la222tc\Workshop 2\BoatClub\BoatClub\obj\Release\BoatClub.pdb

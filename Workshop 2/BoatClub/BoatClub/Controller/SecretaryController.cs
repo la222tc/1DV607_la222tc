@@ -28,6 +28,7 @@ namespace BoatClub.Controller
             {
                     //Pressed 1: Create new Member
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
 
                     main_menu.getName();
                     string name = Console.ReadLine();
@@ -40,18 +41,28 @@ namespace BoatClub.Controller
                        randomNumber = r.Next(int.MaxValue);
                    } while (isSameUnique(randomNumber));
 
-                   Member member = new Member(name, snn, randomNumber);
+                   try
+                   {
+                       Member member = new Member(name, snn, randomNumber);
+                       member_dal.getMembers();
+                       member_dal.addData(member);
+                       member_dal.saveMember();
+                       run();
+                   }
+                   catch (Exception)
+                   {
+                       run();
+                   }
+                   
                 
 
-                   member_dal.getMembers();
-                   member_dal.addData(member);
-                   member_dal.saveMember();
-                   run();
+                  
                    
                     break;
 
                     //Pressed 2: Show compact list of all Members
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     Console.Clear();
                     member_dal.getMembers();
                     membersFromFile();
@@ -79,6 +90,7 @@ namespace BoatClub.Controller
 
                     // KeyPress 3: Show detailed list of members
                 case ConsoleKey.D3:
+                case ConsoleKey.NumPad3:
                     Console.Clear();
                     member_dal.getMembers();
                     membersFromFile();
@@ -123,6 +135,7 @@ namespace BoatClub.Controller
             switch (input.Key)
             {
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     Console.Clear();
                     main_menu.showChangeMemberName();
                     member_dal.updateMemberName(member);
@@ -130,6 +143,7 @@ namespace BoatClub.Controller
                     run();
                     break;
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     Console.Clear();
                     main_menu.showChangeSnn();
                     member_dal.updateSnn(member);
@@ -177,15 +191,19 @@ namespace BoatClub.Controller
             switch (input.Key)
             {
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     boatType = Boat.BoatType.Salilboat;
                     break;
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     boatType = Boat.BoatType.Motorsailer;
                     break;
                 case ConsoleKey.D3:
+                case ConsoleKey.NumPad3:
                     boatType = Boat.BoatType.Kayak_Canoe;
                     break;
                 case ConsoleKey.D4:
+                case ConsoleKey.NumPad4:
                     boatType = Boat.BoatType.Other;
                     break;
                 //Back to Main Menu
@@ -255,6 +273,7 @@ namespace BoatClub.Controller
             {
                     // Delete member
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     member_dal.removeMember(member);
                     listOfMembers.Remove(member);
                     member_dal.saveMember();
@@ -264,17 +283,21 @@ namespace BoatClub.Controller
 
                     //Update member
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     updateMember(member);
                     break;
                     //Add boat to member
                 case ConsoleKey.D3:
+                case ConsoleKey.NumPad3:
                     addBoatToMember(member);
                     break;
                     //Remove boat
                 case ConsoleKey.D4:
+                case ConsoleKey.NumPad4:
                     removeBoat(member);
                     break;
                 case ConsoleKey.D5:
+                case ConsoleKey.NumPad5:
                     updateBoat(member);
                     break;
 
@@ -296,15 +319,19 @@ namespace BoatClub.Controller
             switch (input.Key)
             {
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     boatType = Boat.BoatType.Salilboat;
                     break;
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     boatType = Boat.BoatType.Motorsailer;
                     break;
                 case ConsoleKey.D3:
+                case ConsoleKey.NumPad3:
                     boatType = Boat.BoatType.Kayak_Canoe;
                     break;
                 case ConsoleKey.D4:
+                case ConsoleKey.NumPad4:
                     boatType = Boat.BoatType.Other;
                     break;
                 default:
@@ -366,10 +393,12 @@ namespace BoatClub.Controller
             switch (input.Key)
             {
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     updateBoatType(boat);
                     break;
 
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     updateBoatLength(boat);
                     break;
                 default:
