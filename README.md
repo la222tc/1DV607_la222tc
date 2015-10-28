@@ -7,7 +7,7 @@ My Peer Reviews:
 
 1. https://github.com/la222tc/1DV607_la222tc/blob/master/PeerReviewSonnyKjellberg.pdf
 
-2. 
+2. https://github.com/la222tc/1DV607_la222tc/blob/master/PeerreviewDanielSvensson.pdf
 
 <h1>Workshop 2</h1>
 
